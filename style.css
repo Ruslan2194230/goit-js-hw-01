@@ -1,0 +1,136 @@
+
+input,
+textarea,
+button,
+span {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: inherit;
+}
+
+
+
+
+
+
+
+
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input,
+textarea,
+button,
+span {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*  */
+.person-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+    width: 250px;
+    margin: auto;
+}
+
+.person-container__img-div{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.person-container__text{
+    font-size: 18px;
+    color: #757575;
+}
+
+.task__list {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 206px;
+    height: 44px;
+  
+    margin-top: 16px;
+  }
+
+  .task__item {
+    display: flex;
+
+    align-items: center;
+  
+    width: 44px;
+    height: 44px;
+  
+    border-radius: 50%;
+  
+    &:hover,
+    &:focus,
+    &:active,
+    &:hover .social-links__icon,
+    &:focus .social-links__icon,
+    &:active .social-links__icon {
+      fill: $white-color;
+      background-color: #2196f3;
+    }
+  }
+
+  .task__button{
+    width: 44px;
+
+
+    color: green;
+    background-color: black;
+
+    border-radius: 50%;
+  }
+
+  .tack__decription-p{
+    width: 400px;
+  }
+
+  .T1is-hidden{
+    opacity: 0;
+    pointer-events: none;
+  }
